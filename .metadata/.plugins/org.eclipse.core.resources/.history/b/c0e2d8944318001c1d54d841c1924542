@@ -1,0 +1,15 @@
+package com.java.first;
+
+public class NumberOfDigit {
+
+	public static void main(String[] args) {
+
+	Integer num=35432635;
+	
+	
+	
+	
+	
+	}
+
+}

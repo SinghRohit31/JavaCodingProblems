@@ -1,0 +1,21 @@
+package com.java.first;
+
+public class CountObject {
+
+	private static int i=0;
+	
+	
+	public CountObject() {
+		i++;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		CountObject cb=new CountObject();
+		
+		CountObject cb1=new CountObject();
+		System.out.println(i);
+	}
+
+}

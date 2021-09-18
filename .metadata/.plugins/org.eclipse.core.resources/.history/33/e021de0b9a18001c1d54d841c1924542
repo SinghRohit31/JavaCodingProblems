@@ -1,0 +1,9 @@
+package com.java.first;
+
+public class ExtractNumberFromString {
+
+	public static void main(String[] args) {
+
+	}
+
+}

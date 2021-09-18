@@ -1,0 +1,34 @@
+package com.java.first;
+
+import java.util.Iterator;
+
+public class StringinIncreasingOrder {
+
+	public static void main(String[] args) {
+			String name="This is new testing";
+			
+			String[] name1= name.split(" ");
+			String temp=null;
+			for(int i=0; i<name1.length;i++) {
+				for(int j =i+1; j<name1.length;j++) {
+					if(name1[i].length()>name1[j].length()) {
+						temp=name1[j];
+						name1[j]=name1[i];
+						name1[j]=temp;
+					}
+					
+				}
+				
+				
+			}
+			
+			for(int i=0; i<name1.length;i++) {
+				System.out.println(name1[i] + "  ");
+			}
+			
+	
+			
+			
+	}
+
+}

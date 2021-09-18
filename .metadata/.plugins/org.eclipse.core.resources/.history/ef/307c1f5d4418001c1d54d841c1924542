@@ -1,0 +1,26 @@
+package com.java.first;
+
+public class NoOfOddeven {
+
+	public static void main(String[] args) {
+		int num=35432635;
+		
+		int countEven=0,countOdd=0;
+		
+		while(num>0) {
+			
+			num=num%10;
+			if(num/2==0) {
+				countEven++;
+			}else {
+				countOdd++;
+			}
+			
+		}
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.java.first;
+
+public class StringinIncreasingOrder {
+
+	public static void main(String[] args) {
+			String name="This is new";
+			
+			String[] name1= name.split(" ");
+			
+			int count= name1.length;
+			
+			for (String string : name1) {
+				
+			}
+			
+			
+			
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.java.first;
+
+public class StringinIncreasingOrder {
+
+	public static void main(String[] args) {
+			String name="This is new";
+			
+			char[] ch= name.toCharArray();
+			
+			
+			
+			
+			
+	}
+
+}

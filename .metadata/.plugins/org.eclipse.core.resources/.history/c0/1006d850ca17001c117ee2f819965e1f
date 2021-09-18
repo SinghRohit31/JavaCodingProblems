@@ -1,0 +1,17 @@
+package com.java.first;
+
+import java.util.Arrays;
+
+public class AlphabeticOrder {
+
+	public static void main(String[] args) {
+		String name = "Rohit Singh";
+		char[] ch = name.toCharArray();
+		
+		
+		System.out.println(Arrays.sort(ch));
+		
+		
+	}
+
+}

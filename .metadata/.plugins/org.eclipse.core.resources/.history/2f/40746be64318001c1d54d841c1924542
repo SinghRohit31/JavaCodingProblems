@@ -1,0 +1,9 @@
+package com.java.first;
+
+public class NoOfOddeven {
+
+	public static void main(String[] args) {
+		int num=35432635;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.java.first;
+
+public class Program1_NumberPalindrome {
+
+	public static void main(String[] args) {
+		int number = 1441;
+		int temp=number;
+		while(temp>0) {
+			
+		}
+	}
+
+}
