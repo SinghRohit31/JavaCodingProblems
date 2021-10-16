@@ -23,7 +23,7 @@ public class CountObject {
 		CountObject cb1=new CountObject();
 		
 		CountObject cb2=new CountObject("Rahul");
-		System.out.println(i);
+		System.out.println("Number of Objects created  "+ i);
 	}
 
 }
