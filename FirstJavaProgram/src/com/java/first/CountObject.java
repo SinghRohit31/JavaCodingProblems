@@ -2,18 +2,16 @@ package com.java.first;
 
 public class CountObject {
 
-	private static int i=0;
+	private static int i ;;
 	
-	
-	public CountObject() {
-		i++;
-	}
-	
-	
-	
-	public CountObject(String string) {
-		i++;
-	}
+
+	/*
+	 * public CountObject() { i++; }
+	 * 
+	 * 
+	 * 
+	 * public CountObject(String string) { i++; }
+	 */
 
 
 
@@ -22,7 +20,7 @@ public class CountObject {
 		
 		CountObject cb1=new CountObject();
 		
-		CountObject cb2=new CountObject("Rahul");
+	//	CountObject cb2=new CountObject("Rahul");
 		System.out.println("Number of Objects created  "+ i);
 	}
 

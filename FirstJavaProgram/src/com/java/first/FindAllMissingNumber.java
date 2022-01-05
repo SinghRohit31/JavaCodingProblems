@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class FindAllMissingNumber {
 
 	public static void main(String[] args) {
-		int[] arr= {1,3,4,6,8,9};
+		int[] arr= {1,3,4,6,8,10};
 		
 		Arrays.sort(arr);
 		
