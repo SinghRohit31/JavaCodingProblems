@@ -1,5 +1,6 @@
 package com.map.hashmaps;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -43,7 +44,7 @@ public class CompareHashMap {
 		 
 		
 		
-		// Find out the addition key from two hashmap  - Using hashset
+		// Question 3: Find out the addition key from two hashmap  - Using hashset
 		
 		Map<Integer,String>  map4 = new HashMap<>();
 		map4.put(1, "A");
@@ -52,18 +53,46 @@ public class CompareHashMap {
 		map4.put(4, "D");
 		
 		Set<Integer>  set = new HashSet<>(map1.keySet());
-		set.addAll(map4.keySet());
+		set.addAll(map4.keySet());  // combined both the map
 		
 		set.removeAll(map1.keySet());
 		System.out.println(set);
 		
 		
+		// Questions 4 : compare the map by values
+		
+		Map<Integer,String>  map5 = new HashMap<>();
+		map5.put(1, "A");
+		map5.put(2, "B");
+		map5.put(3, "C");
 		
 		
+		Map<Integer,String>  map6 = new HashMap<>();
+		map6.put(3, "C");
+		map6.put(2, "B");
+		map6.put(1, "A");
+		
+		Map<Integer,String>  map7 = new HashMap<>();
+		map7.put(1, "A");
+		map7.put(2, "B");
+		map7.put(3, "C");
+		map7.put(4, "C");
 		
 		
+	// Using Arraylist -> in this duplicate will also be considered for comparing
+		System.out.println("-----;--------  comparing the values Using Arraylist -------------------");
 		
+		System.out.println(new ArrayList<>(map5.values()).equals(new ArrayList<>(map6.values())));
 		
+		System.out.println(new ArrayList<>(map5.values()).equals(new ArrayList<>(map7.values())));
+		
+	// Using Hashset  --> 	in this duplicate will also be ignored for comparing
+		
+		System.out.println("-----;--------  comparing the values Using Hashset -------------------");
+		
+	    System.out.println(new HashSet<>(map5.values()).equals(new HashSet<>(map6.values())));
+		
+		System.out.println(new HashSet<>(map5.values()).equals(new HashSet<>(map7.values())));
 		
 		
 		
